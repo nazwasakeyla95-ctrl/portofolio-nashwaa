@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat PortFolio</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Keyy</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>    
+
+    <section class="home">
+            <div class="home-info">
+                
+                <p><span style="color: #ee5467;"><strong>Hello</st></span></p>
+                <h2><div class="highlight">I'M <span style="color: #ee5467;"> Nazwa </span> Sakeyla</h2>
+                <p>Hallo semuanya, perkenalkan nama saya Nazwa Sakeyla. Saya lahir di Jakarta pada tanggal 13 Maret 2008. Saya adalah seorang siswi di SMKN 40 Jakarta.
+                   Di sekolah ini saya mengambil jurusan Rekayasa Perangkat Lunak.
+                  Saya memilih Ekskul Tari Tradisional dan mengikuti Organisasi Pramuka.</p>
+                <div class="btn-sci">
+                    <a href="#" class="btn">Download CV</a>
+                    <div class="sci">
+                        <a href="#"><i class="ri-whatsapp-line"></i></a>
+                        <a href="https://www.tiktok.com/@sheikellaa?_t=ZS-8ymVNhxsZ6d&_r=1"><i class="ri-tiktok-line"></i></a>
+                        <a href="#"><i class="ri-youtube-line"></i></a>
+                        <a href="https://www.instagram.com/nashwakylaa?igsh=MTYzNHY1b3h1ZnUwdA%3D%3D&utm_source=qr"><i class="ri-instagram-line"></i></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="nasihuy.png" alt="">
+                    <div style="width: 95%; height: 95%; background: linear-gradient(135deg, #667eea, #764ba2); 
+                    border-radius: 50%; display: flex; align-items: center; 
+                    justify-content: center; color: white; font-size: 24px;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="home-img">
+                    <div class="img-box">
+                        <div class="img-about">
+                            <img src="nasihuy_almet-removebg-preview.png" >
+                            <div style="width: 95%; height: 95%; background: linear-gradient(135deg, #667eea, #764ba2); 
+                            border-radius: 50%; display: flex; align-items: center; 
+                            justify-content: center; color: white; font-size: 24px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="About-Me-2">
+                    <h1 class="sub-tittle" style="color: #12134d;">About Me</h1>
+                    <p>Halo semua perkenalkan nama saya Nazwa sakeyla, saya lahir di Jakarta pada 13 Maret 2008, 
+                    saya berpendidikan di SMKN 40 Jakarta dan saya di SMKN 40 mengikuti kegiatan ekskul pramuka, dan Tari Tradisional.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab(event, 'Skill')">Skill</p>
+                        <p class="tab-links" onclick="openTab(event, 'Pendidikan')">Pendidikan</p>
+                        <p class="tab-links" onclick="openTab(event, 'Pengalaman')">Pengalaman</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="Skill">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designer Web/App Interface</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="Pendidikan">
+                        <ul>
+                            <li><span>SDN UKS 13 Pagi</span><br>Tahun 2015-2021</li>
+                            <li><span>SMP Negeri 97 Jakarta Pusat</span><br>Tahun 2021-2024</li>
+                            <li><span>SMK Negeri 40 Jakarta Timur</span><br>Tahun 2024-2027</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="Pengalaman">
+                        <ul>
+                            <li><span>Lomba Dinas Tatra</span><br>November 2024</li>
+                            <li><span>Tampil Acara-acara Sekolah</span><br>Agustus 2024 - Sekarang</li>
+                            <li><span>Latgab</span><br>2024</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- PROJECTS -->
+  <section class="projects" id="project">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <p class="section-subtitle">Here are some of my projects</p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="gambar project figma.jpg" alt="Project 1" class="project-img">
+          <h3 class="project-title">Figma - Instagram Home</h3>
+          <p class="project-desc">
+            A food ordering app UI/UX design featuring food categories, favorites, and ratings. Built in Figma to provide a practical and modern user experience.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <img src="pastel_sweets-removebg-preview.png" alt="Project 2" class="project-img">
+          <h3 class="project-title">Figma - Food App</h3>
+          <p class="project-desc">
+            UI/UX design of a food ordering app featuring popular menus, and a shopping cart, Made in Figma to provide a practical and modern user experience.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <img src="macaron-removebg-preview.png" alt="Project 3" class="project-img">
+          <h3 class="project-title">Figma - Food App</h3>
+          <p class="project-desc">
+             A food ordering app UI/UX design featuring promos, popular menu, shopping cart, and payment options. Created in Figma to provide a practical and modern user experience.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+<section id="skill">
+    <div class="container">
+    <h1 class="sub-tittle" style="color: #E46E6E; text-align: center;">My Skills</h1>
+        <div class="Skill-List">
+            <div>
+            <i class="ri-code-s-slash-line"></i>
+            <h2>Manajemen Waktu</h2>
+            <p>Mengatur prioritas agar pekerjaan selesai tepat waktu.</p>
+            <a href="#">Learn More</a>
+            </div>
+
+            <div>
+            <i class="ri-crop-line"></i>
+            <h2>UI/UX Design</h2>
+            <p>Merancang antarmuka pengguna yang intuitif dan pengalaman pengguna yang menyenangkan untuk aplikasi web dan mobile.</p>
+            <a href="#">Learn More</a>
+            </div>
+                
+            <div>
+            <i class="ri-app-store-line"></i>
+            <h2>Kerja Sama Tim</h2>
+            <p>Mampu bekerja sama dalam kelompok.</p>
+            <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h1 class="sub-tittle" style="color: #E46E6E; text-align: center;">Contact Me</h1>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="ri-mail-line"></i>
+                    <h3>Email</h3>
+                    <p>nazwasakeyla95@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="ri-phone-line"></i>
+                    <h3>Phone</h3>
+                    <p>+62 821-1366-6879</p>
+                </div>
+                <div class="contact-item">
+                    <i class="ri-map-pin-line"></i>
+                    <h3>Location</h3>
+                    <p>Jl.Kayumanis 8 Rt 010/ Rw 008 No.18, Jakarta Timur, DKI Jakarta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <footer class="footer">
+    <p style="text-align: center;">© 2025 Nazwa Sakeyla. All Rights Reserved.</p>
+    <div style="text-align: center;" class="footer-nav">
+    <a href="#home">Home</a> |
+    <a href="#project">Projects</a> |
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div class="footer-social" style="text-align: center;">
+    <a href="https://instagram.com/kiddiepik" target="_blank"><i class="fab fa-instagram"></i></a>
+     <a href="https://tiktok.com/@neyraazy" target="_blank"><i class="fab fa-tiktok"></i></a>
+  </div>\
+  </footer>
+
+    <script>
+        function openTab(event, tabName) {
+            // Hapus class active dari semua tab links
+            var tabLinks = document.getElementsByClassName("tab-links");
+            for (var i = 0; i < tabLinks.length; i++) {
+                tabLinks[i].classList.remove("active-link");
+            }
+            
+            // Hapus class active dari semua tab contents
+            var tabContents = document.getElementsByClassName("tab-contents");
+            for (var i = 0; i < tabContents.length; i++) {
+                tabContents[i].classList.remove("active-tab");
+            }
+            
+            // Tambah class active ke tab yang diklik
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+
+        // Smooth scrolling untuk navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+                }
+            });
+        });
+
+        // Update active navbar item on scroll
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            const navItems = document.querySelectorAll('.navbar ul li');
+            
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navItems.forEach(item => {
+                item.classList.remove('active');
+                if (item.querySelector('a').getAttribute('href') === '#${current}') {
+                    item.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
